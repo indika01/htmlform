@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SL Army</title>
+    <link rel="stylesheet" href="ARMY.CSS">
+    <!-- <style>
+        input[type=text] {
+            width: 100%;
+            border: 2px solid #aaa;
+            border-radius: 4px;
+            margin: 8px 0;
+            outline: none;
+            padding: 8px;
+            box-sizing: border-box;
+            transition: .3s;
+        }
+        
+        input[type=text]:focus {
+            border-color: dodgerblue;
+            box-shadow: 0 0 8px 0 dodgerblue;
+        }
+    </style> -->
+</head>
+
+<body>
+    <header>
+        <img src="web_banner.png">
+    </header>
+    &nbsp; &nbsp;
+    <form method="POST">
+        <h3 class="step"><b>STEP 1/2</b></h3>
+        <br>
+        <div class="entry">
+            <label><b>Entry Type</b></label>
+            <select name="type" id="post" required>
+            <option value="Cadet">Cadet</option>
+            <option value="Direct Enlistment">Direct Enlistment</option>
+        </select>
+            <label><b>Rank</b></label>
+            <select name="rank" id="post" required>
+        <option value="Cadet">Cadet</option>
+        <option value="2/Lt">2/Lt</option>
+        <option value="Lt">Lt</option>
+        <option value="Capt">Capt</option>
+    </select></div>
+        </br>
+        <label>Full Name</label>
+        <input type="text" class="name" name="fullname" size="50" required><br>
+        <label>Date of Birth/Certificate No</label>
+        <input type="date" class="name" name="dob" required>
+        <input type="text" id="num" name="dob" size="6" required>
+        <br>
+        <label class="container">Title</label> Mr.
+        <input type="radio" id="title" name="title" value="Mr" required> Mrs.
+        <span class="checkmark"></span>
+        <input type="radio" id="title" name="title" value="Mrs" required>
+        <span class="checkmark"></span><br>
+        <label class="container">Civil Status</label>Married.
+        <input type="radio" id="title" name="status" value="Single" required>Unmarried.
+        <span class="checkmark"></span>
+        <input type="radio" id="title" name="status" value="Married" required>
+        <span class="checkmark"></span>
+        <br>
+        <label>Name with Initials</label>
+        <input type="text" class="name" name="name" size="60" required><br>
+        <label class="container">Gender</label>Male.
+        <input type="radio" id="title" name="gender" value="Male" required>Female.
+        <span class="checkmark"></span>
+        <input type="radio" id="title" name="gender" value="Female" required>
+        <span class="checkmark"></span>
+        <br>
+        <p class="formfield">
+            <label for="textarea">Permanant Addess</label>
+            <textarea id="address" name="address" rows="4" cols="20" wrap="off" required></textarea></p><br>
+        <label>Sri Lankan Citizenship</label>
+        <select name="citizen" id="citizen" required>
+        <option value="Descent">Descent</option>
+        <option value="Registration">Registration</option>
+    </select><br>
+        <label>Nationality</label>
+        <input type="text" class="name" name='nic' size="10" required><br>
+        <label>GN Division</label>
+        <input type="text" class="name" name='nic' size="10" required><br>
+        <label>Electorate</label>
+        <input type="text" class="name" name='nic' size="10" required><br>
+        <label>Divisional Secretariat</label>
+        <input type="text" class="name" name='nic' size="10" required><br>
+        <label>Nearest Police Station</label>
+        <input type="text" class="name" name='nic' size="10" required><br>
+        <label>NIC Number</label>
+        <input type="text" class="name" name='nic' size="11" required>V</br>
+        <label>Tel(Residence)</label>
+        <input type="text" class="name" name='nic' size="10" required></br>
+        <label>Mobile No</label>
+        <input type="text" class="name" name='nic' size="10" required></br>
+        <hr> &nbsp;
+
+    </form>
+    <!-- <form>
+        <input type="text" placeholder="your name" </form>
+        <inpu </body> -->
+
+</html>

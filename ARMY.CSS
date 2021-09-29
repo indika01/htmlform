@@ -1,0 +1,107 @@
+header {
+    background-color: rgb(66, 66, 241);
+}
+
+.step {
+    background-color: antiquewhite;
+    border: 20px solid antiquewhite;
+}
+
+.entry {
+    background-color: rgba(211, 211, 211, 0.726);
+    border: 15px solid rgba(211, 211, 211, 0.726);
+}
+
+
+/*
+form {
+    width: 100%;
+    display: inline-block;
+}
+
+.name {
+    border-radius: 5px;
+    background: rgb(236, 227, 227);
+    color: black;
+    width: 290px;
+    padding: 4px;
+}
+*/
+
+label {
+    width: 200px;
+    display: inline-block;
+    margin: 10px;
+}
+
+input[type=text] {
+    width: 400px;
+    border-bottom: 2px solid #aaa;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: none;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    display: inline-block;
+}
+
+input[type=text]:focus {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: dodgerblue;
+    box-shadow: dodgerblue;
+}
+
+input[type=date] {
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    display: inline-block;
+}
+
+input[type=date]:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+#num {
+    width: 100px;
+    height: 38px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    box-sizing: border-box;
+    transition: .3s;
+    display: inline-block
+}
+
+textarea {
+    width: 400px;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    resize: none;
+    vertical-align: top;
+}
+
+textarea:focus {
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+.formfield {}
+
+hr {
+    background-color: black;
+}
